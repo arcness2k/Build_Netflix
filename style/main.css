@@ -12,7 +12,7 @@
 /*ELEMENTOS BASE*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -43,7 +43,7 @@ header nav a:hover{
 /*FILME PRINCIPAL*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/Build_Netflix/img/breaking-capa.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/breaking-capa.jpg");
     
     height: 400px;
     background-size: cover;
@@ -85,4 +85,20 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.filme-principal .container{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
