@@ -1,6 +1,6 @@
 :root{
-    --vermelho:#E50914;
-    --preto:#141414;
+    --vermelho:#ff000d;
+    --preto:rgb(0, 0, 0);
 }
 
 *{
@@ -23,11 +23,16 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
+/*header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: "Arial Black", Times;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 40px;
+    width: 200px;
+}*/
+
+.logo_img{
+    width: 160px;
 }
 
 header nav a{
@@ -43,7 +48,7 @@ header nav a:hover{
 /*FILME PRINCIPAL*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/breaking-capa.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/Build_Netflix/img/breaking-capa.jpg");
     
     height: 400px;
     background-size: cover;
@@ -79,8 +84,9 @@ header nav a:hover{
 }
 
 .botao:hover{
-    background-color: white;
-    color: var(--preto);
+    background-color: rgba(255, 0, 0, 0.897);
+    color: white;
+    
 }
 
 .botao i{
